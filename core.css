@@ -1,0 +1,106 @@
+:root {
+
+    --colorheader: linear-gradient(38deg, #5D5D5D, #413f3f);
+    --colorfooter: linear-gradient(38deg, #343434,#000000);
+
+}
+
+a {
+
+    color: white;
+
+}
+
+body {
+
+    margin: 0em;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+
+}
+
+footer {
+
+    background: var(--colorfooter);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloque {
+
+    background: url(../images/Background.png) no-repeat 100% center;
+    background-size: cover;
+    /* object-fit: cover; */
+    height:80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.bloque img {
+
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    align-self: center;
+    /* flex-grow: 1; */
+
+}
+
+.contenedor{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+
+    background: var(--colorheader);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.header img {
+
+
+
+}
+
+@media (max-width: 30em) {
+
+    .bloque {
+
+        background: url(../images/CallForPapersGrande.jpeg) center;
+        background-size: cover;
+        /* object-fit: cover; */
+        height:80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    
+    }
+
+    .bloque img{
+        display:none;
+    }
+
+}
