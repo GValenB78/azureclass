@@ -1,17 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+<html lang="es">
 
-<body>
-  <main>
-    <h1>Bienvenidos a mi primer Web App en Azure :D</h1>
-  </main>
-</body>
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>CIC | CORE 2020</title>
+        <link rel="stylesheet" href="css/core.css" />
+        <link rel="stylesheet" href="css/carousel.css" />
+        <script type="text/javascript" src="javascript/carousel.js"></script>
+
+    </head>
+
+    <body>
+
+        <div="contenedor">
+
+            <div class="header">
+                <img src="images/iconos_logos-bandera.png" alt="Logo CIC IPN MEXICO">
+            </div>
+
+            <div class="bloque">
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade" style="display: block;">
+                        <div class="numberText"></div>
+                        <img src="images/CallForPapers.jpeg" alt="Call For Papers Congreso CORE 2020" />
+                        <div class="text">  
+                            <a href="https://easychair.org/conferences/?conf=core2020">¡Sube tu artículo!
+                            </a></div>
+                    </div>
+                </div>
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numberText"></div>
+                        <img src="images/FechasConferenciasCORECongress.jpeg" 
+                        alt="Fechas Conferencias Congreso CORE 2020" />
+                        <div class="text">Anuncio CORE 2</div>
+                    </div>
+                </div>
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numberText"></div>
+                        <img src="images/ConvocatoriaTalleresCongresoCORE2020.jpeg" 
+                        alt="Fechas Conferencias Congreso CORE 2020" />
+                        <div class="text">Anuncio CORE 3</div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <br>
+        
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <!-- <img src="images/CallForPapers.jpeg" alt="Call For Papers Congreso CORE 2020"> -->
+
+            </div>
+
+            <footer>
+                <p>Centro de Investigación en Computación. Todos los derechos reservados.<br>
+                Av. Juan de Dios Bátiz, Esq. Miguel Othón de Mendizábal | Col. Nueva Industrial 
+                Vallejo, Gustavo A. Madero | C.P. 07738 | Ciudad de México</p>
+            </footer>
+
+        </div>
+
+    </body>
 
 </html>
