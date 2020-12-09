@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
+<p align="center"> Puedes revisar mi primer app en Azure desde este enlace: https://lively-meadow-0cdc78310.azurestaticapps.net/
     <br> 
 </p>
 
