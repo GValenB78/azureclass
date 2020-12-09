@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://githubcampus.expert/assets/images/ce-flag.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Vanilla JavaScript App</h3>
+<h3 align="center">Mi primer Web App con Azure</h3>
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> Learn the skills to build and grow diverse technology communities on campus with training, mentorship, and support from GitHub.
+<p align="center"> Puedes revisar mi primer app en Azure desde este enlace: https://lively-meadow-0cdc78310.azurestaticapps.net/
     <br> 
 </p>
 
